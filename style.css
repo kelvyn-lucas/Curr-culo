@@ -1,0 +1,115 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #0a9ce0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header h2 {
+  font-size: 1.2em;
+  color: #404546;
+} 
+
+.foto{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 5rem;
+    margin-left: 1rem;
+}
+
+.cabeca {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Foto e título */
+  align-items: center;
+  gap: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  margin: 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #ff9800;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}
+
+.container h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.github{
+    color: #333;
+    text-decoration: none;
+}
+
+.competencias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    
+}
+
+.skills{
+    background-color: rgb(202, 215, 226);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    gap: 10px;
+}
+
+footer {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer .social a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
